@@ -1,0 +1,17 @@
+git add dari working ke staging index
+git commit dari staging index ke repository
+git diff  mengubah file
+git restore nama file,git clean -f(all file),membatalkan penghapusan/perubahan
+git restore --stage namafile membatalkan dari staging index ,2 tahap
+git log, hystory commit, git log --oneline
+git log --oneline --graph, (graph)
+git show (hash/kode hashnya) (detail perubahan)
+git diff hash1 hash2 (membandingkan commit hasil akhir bukan perubahan)(git difftool hash1 hash2,lebih sederhana)
+git reset <mode> hash,(meriset commit),--soft mindah head tapi tidak membuat perubahan di WD dan SI,--mixed mengubah SI sama dgn repository tapi tidak mengubah WD,--hard mengubah semua
+git --amend -m
+git chekout hash --namafile ,melihat file versi sebelumnya
+git chekout hash ,snapshot,tertentu ,git chekout namabranch
+git branch --show-current
+git revent hash ,kebalikan
+file.gitignore   ,tidak ingin di track
+git blame namafile,ingin tahu siapa yg menambah baris file dan commit

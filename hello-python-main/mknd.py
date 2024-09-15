@@ -38,7 +38,7 @@ for mahasiswa in data_mahasiswa:
     BEASISWA = data_mahasiswa[KEY]["beasiswa"]
     LAHIR = data_mahasiswa[KEY]["lahir"].strftime("%x")
 
-print(f"{KEY:<6} {NAMA:<17} {SKS:<3} {BEASISWA:^9} {LAHIR:<10}")
+    print(f"{KEY:<6} {NAMA:<17} {SKS:<3} {BEASISWA:^9} {LAHIR:<10}")
 
 
 
